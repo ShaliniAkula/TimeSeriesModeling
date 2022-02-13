@@ -7,7 +7,7 @@ maxModelOrderAR      = 40;    % The maximum number of poles in the ARMA model
 maxRelError          = 1e-4;
 
 % Load the dataset
-S = load("reflected.csv");
+S = load("transmitted.csv");
 
 % Extract the information for the time (=t) and signal (=y) axes
 t = transpose(S(:,1));
